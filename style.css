@@ -4,6 +4,11 @@ body {
   line-height: 1;
 }
 
+form {
+  position: relative;
+  border-bottom: black;
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -58,11 +63,15 @@ textarea {
 }
 
 .saveBtn {
+  position: absolute;
+  right: -20px;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  height: 86px;
+  top: -33px;
 }
 
 .saveBtn i:hover {

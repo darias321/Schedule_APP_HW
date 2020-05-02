@@ -22,11 +22,14 @@ $(document).ready(function () {
     }
   });
 
-  $("form").submit(function (event) {
+  $("form").click(function (event) {
     event.preventDefault();
-    var task = event.target.task.value;
+    var task = $(this).children("textarea").val();
     var hour = $(this).parent().attr("data-time");
 
     localStorage.setItem(hour, task);
+
+    // resest button //
+    document.getElementById("myForm").reset();
   });
 });
