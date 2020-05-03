@@ -1,7 +1,9 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   line-height: 1;
+  background-color: transparent;
+  font-weight: 500;
 }
 
 form {
@@ -70,7 +72,7 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
-  height: 86px;
+  height: 90px;
   top: -33px;
 }
 
