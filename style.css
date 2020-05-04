@@ -58,11 +58,13 @@ textarea {
 .present {
   background-color: #ff6961;
   color: black;
+  border-bottom: white solid 1px;
 }
 
 .future {
   background-color: #77dd77;
   color: black;
+  border-bottom: white solid 1px;
 }
 
 .saveBtn {
@@ -71,8 +73,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  /* background-color: #06aed5; */
-  background-color: #4e92a1;
+  background-color: #74a7a0;
   color: white;
   height: 90px;
   top: -33px;
