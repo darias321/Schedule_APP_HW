@@ -2,7 +2,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   line-height: 1;
-  background-color: transparent;
+  background-color: aliceblue;
   font-weight: 10;
 }
 
@@ -71,7 +71,8 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  /* background-color: #06aed5; */
+  background-color: #4e92a1;
   color: white;
   height: 90px;
   top: -33px;
